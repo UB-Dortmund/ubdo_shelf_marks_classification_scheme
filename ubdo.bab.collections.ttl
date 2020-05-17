@@ -1,0 +1,103 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lobid_orga: <http://lobid.org/organisations/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix powder: <http://www.w3.org/2007/05/powder#> .
+
+lobid_orga:DE-290 a ecrm:E39_Actor .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bereichsbibliothek Architektur und Bauingenieurwesen"@de ;
+  dct:title "Departmental library of Architecture and Civil Engineering"@en ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:00> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:10> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:16> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:20> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:30> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:40> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:50> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:60> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:70> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:80> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:Ya> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:00> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, Nachschlagewerke"@de ;
+  dct:alternative "00" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#allgemein"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:10> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bauwirtschaft"@de ;
+  dct:alternative "10" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#bauwirtschaft"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:16> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Recht"@de ;
+  dct:alternative "16" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#recht"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:20> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bezugswissenschaften"@de ;
+  dct:alternative "20" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#bezugswiss"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:30> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Baustoffe"@de ;
+  dct:alternative "30" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#baustoffe"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:40> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Architektur, Denkmalpflege"@de ;
+  dct:alternative "40" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#architektur"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:50> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Raumordnung, Städtebau"@de ;
+  dct:alternative "50" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#raumordnung"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:60> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Konstruktiver Ingenieurbau"@de ;
+  dct:alternative "60" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#ingenieurbau"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:70> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bauproduktion"@de ;
+  dct:alternative "70" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#bauproduktion"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:80> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Haustechnik, Bauphysik"@de ;
+  dct:alternative "80" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Raum_Bau/bb_syst.html#haustechnik"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-10:Ya> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Architektur"@de ;
+  dct:title "Architecture"@en ;
+  dct:alternative "Ya" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-10> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+

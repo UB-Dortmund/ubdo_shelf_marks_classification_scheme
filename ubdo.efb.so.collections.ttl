@@ -1,0 +1,139 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lobid_orga: <http://lobid.org/organisations/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix powder: <http://www.w3.org/2007/05/powder#> .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOA"@de ;
+  dct:alternative "SOA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOB"@de ;
+  dct:alternative "SOB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOC"@de ;
+  dct:alternative "SOC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOD"@de ;
+  dct:alternative "SOD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOE"@de ;
+  dct:alternative "SOE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOF"@de ;
+  dct:alternative "SOF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOG"@de ;
+  dct:alternative "SOG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOH"@de ;
+  dct:alternative "SOH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOI"@de ;
+  dct:alternative "SOI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOJ"@de ;
+  dct:alternative "SOJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOK"@de ;
+  dct:alternative "SOK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOL"@de ;
+  dct:alternative "SOL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOM"@de ;
+  dct:alternative "SOM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SON> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SON"@de ;
+  dct:alternative "SON" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOO"@de ;
+  dct:alternative "SOO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOP"@de ;
+  dct:alternative "SOP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOQ"@de ;
+  dct:alternative "SOQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOR"@de ;
+  dct:alternative "SOR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "SOS"@de ;
+  dct:alternative "SOS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .

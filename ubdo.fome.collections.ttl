@@ -1,0 +1,254 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lobid_orga: <http://lobid.org/organisations/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix powder: <http://www.w3.org/2007/05/powder#> .
+
+lobid_orga:DE-290 a ecrm:E39_Actor .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibliothek der Forschungsstelle Ostmitteleuropa"@de ;
+  dct:title "Collection of the Research Centre for East-Central Europe"@en ;
+  dct:alternative "FOME" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/projekte/fome-systematik.pdf"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:A> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:Bi> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:C> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:E> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:G> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:GJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:Kb> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:A> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nachschlagewerke: Kataloge, Lexika, Ortsverzeichnisse u.ä."@de ;
+  dct:alternative "FOME A" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:Bi> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibliographien"@de ;
+  dct:alternative "FOME Bi" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:C> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Europa"@de ;
+  dct:alternative "FOME C" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutschland"@de ;
+  dct:alternative "FOME D" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCa> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCb> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCc> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCd> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCe> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCf> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDa> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDb> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDc> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDd> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:E> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ostmittel- und Osteuropa"@de ;
+  dct:alternative "FOME E" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:EA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:EB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:EC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:ED> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Südosteuropa"@de ;
+  dct:alternative "FOME F" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FG> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:G> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Asien"@de ;
+  dct:alternative "FOME G" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:GJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Israel, Judentum"@de ;
+  dct:alternative "FOME GJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:Kb> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kinder- und Jugendliteratur (Sonderbestand)"@de ;
+  dct:alternative "FOME Kb" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Preußen"@de ;
+  dct:alternative "FOME DA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bundesrepublik Deutschland"@de ;
+  dct:alternative "FOME DB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mitteldeutschland (SBZ, DDR)"@de ;
+  dct:alternative "FOME DC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCa> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sachsen (Provinz) und Anhalt"@de ;
+  dct:alternative "FOME DCa" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCb> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mecklenburg (auch Mecklenburg-Vorpommern)"@de ;
+  dct:alternative "FOME DCb" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCc> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Brandenburg"@de ;
+  dct:alternative "FOME DCc" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCd> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Berlin"@de ;
+  dct:alternative "FOME DCd" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCe> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Thüringen"@de ;
+  dct:alternative "FOME DCe" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DCf> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sachsen (Land)"@de ;
+  dct:alternative "FOME DCf" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ostdeutschland"@de ;
+  dct:alternative "FOME DD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDa> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Pommern"@de ;
+  dct:alternative "FOME DDa" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDb> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ost- und Westpreußen, Danzig"@de ;
+  dct:alternative "FOME DDb" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDc> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Posen, Grenzmark Posen-Westpreußen, Ostmark"@de ;
+  dct:alternative "FOME DDc" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:DDd> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Schlesien"@de ;
+  dct:alternative "FOME DDd" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:D> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:EA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Baltikum"@de ;
+  dct:alternative "FOME EA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:E> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:EB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Polen"@de ;
+  dct:alternative "FOME EB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:E> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:EC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Russland, Sowjetunion"@de ;
+  dct:alternative "FOME EC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:E> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:ED> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Böhmen, Mähren, Österr. Schlesien, CSSR"@de ;
+  dct:alternative "FOME ED" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:E> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Österreich"@de ;
+  dct:alternative "FOME FA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ungarn (Donauschwaben)"@de ;
+  dct:alternative "FOME FB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Jugoslawien"@de ;
+  dct:alternative "FOME FC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rumänien (Siebenbürgen)"@de ;
+  dct:alternative "FOME FD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Albanien"@de ;
+  dct:alternative "FOME FE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bulgarien"@de ;
+  dct:alternative "FOME FF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:FG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Türkei"@de ;
+  dct:alternative "FOME FG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME:F> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+

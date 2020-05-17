@@ -1,0 +1,2631 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lobid_orga: <http://lobid.org/organisations/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix powder: <http://www.w3.org/2007/05/powder#> .
+
+lobid_orga:DE-290 a ecrm:E39_Actor .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Emil-Figge-Bibliothek"@de ;
+  dct:title "Emil-Figge-Bibliothek"@en ;
+  powder:describedby "https://www.ub.tu-dortmund.de/FuerSie/bereichsbibliotheken.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:AA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:T> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:AA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Allgemeine Nachschlagewerke"@de ;
+  dct:title "General Reference Works"@en ;
+  dct:alternative "AA" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#aa"^^xsd:anyURI ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#aa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Anglistik"@de ;
+  dct:title "English and American Studies"@en ;
+  dct:alternative "SE" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SED> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SET> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEV> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Erziehung"@de ;
+  dct:title "Education"@en ;
+  dct:alternative "P" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PG> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Geographie"@de ;
+  dct:title "Geography"@en ;
+  dct:alternative "GO" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GON> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOS> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Germanistik"@de ;
+  dct:title "German Studies"@en ;
+  dct:alternative "SD" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDT> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDV> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDW> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDX> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDY> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDZ> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Geschichte"@de ;
+  dct:title "History"@en ;
+  dct:alternative "GE" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GED> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GET> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEU> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Journalistik"@de ;
+  dct:title "Journalism"@en ;
+  dct:alternative "JO" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOT> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Kunst"@de ;
+  dct:title "Art"@en ;
+  dct:alternative "K" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KHa> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KHs> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KOa> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KOv> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KOr> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPa> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPc> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPf> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPs> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPv> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KT> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KU> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KV> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KW> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KX> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KY> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KZI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KZSK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KZVK> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Musik"@de ;
+  dct:title "Music"@en ;
+  dct:alternative "MU" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUT> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUU> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUV> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUW> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUX> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUY> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Philosophie"@de ;
+  dct:title "Philosophy"@en ;
+  dct:alternative "PH" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHT> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHU> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHV> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHW> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHX> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHY> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Politik"@de ;
+  dct:title "Political Science"@en ;
+  dct:alternative "PO" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PON> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POT> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POU> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POV> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POW> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POY> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Psychologie"@de ;
+  dct:title "Psychology"@en ;
+  dct:alternative "PS" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PST> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSV> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Rehabilitationswissenschaften"@de ;
+  dct:title "Rehabilitation Sciences"@en ;
+  dct:alternative "Reha" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A000> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A100> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A200> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A300> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A400> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A500> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A600> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A700> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A800> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:ASP> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Sprachen, sonstige"@de ;
+  dct:title "Other Languages"@en ;
+  dct:alternative "SF" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFT> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFV> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Soziologie"@de ;
+  dct:title "Sociology"@en ;
+  dct:alternative "SO" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/soz-syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SON> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOR> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SOS> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Sport"@de ;
+  dct:title "Sport"@en ;
+  dct:alternative "LE" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LED> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LER> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LES> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LET> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEV> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEW> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEX> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEY> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Sprach- und Literaturwissenschaften allgemein"@de ;
+  dct:title "General Linguistics and Literary Studies"@en ;
+  dct:alternative "S" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SAA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCL> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Textil"@de ;
+  dct:title "Cultural Anthropology of Textiles"@en ;
+  dct:alternative "TE" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TED> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEO> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TES> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEX> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12> ;
+  dct:title "Theologie"@de ;
+  dct:title "Theology"@en ;
+  dct:alternative "TH" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THH> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THI> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THJ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THN> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine und einführende Literatur"@de ;
+  dct:title "Reference Works, Introductions"@en ;
+  dct:alternative "SEA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sea"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SED> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Didaktik des Englisch- und Fremdsprachenunterrichts"@de ;
+  dct:title "Didactics of English and Foreign Language Teaching"@en ;
+  dct:alternative "SED" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sed"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Schulbücher"@de ;
+  dct:title "Textbooks"@en ;
+  dct:alternative "SEE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#see"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonstige Arbeitsmaterialien für den Englischunterricht"@de ;
+  dct:title "Other Classroom Materials"@en ;
+  dct:alternative "SEF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sef"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprachwissenschaft"@de ;
+  dct:title "Linguistics"@en ;
+  dct:alternative "SEG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#seg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Landeskunde der englischsprachigen Länder"@de ;
+  dct:title "Cultural Studies"@en ;
+  dct:alternative "SEH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#seh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Literaturwissenschaft"@de ;
+  dct:title "Literature Studies"@en ;
+  dct:alternative "SEI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sei"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Anthologien"@de ;
+  dct:title "Anthologien"@en ;
+  dct:alternative "SEK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sek"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Autorenalphabet (Primär- und Sekundärliteratur)"@de ;
+  dct:title "A - Z of Authors (primary and secondary literature)"@en ;
+  dct:alternative "SEL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sel"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kinder- und Jugendliteratur"@de ;
+  dct:title "Children's and Juvenile Literature"@en ;
+  dct:alternative "SEM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sem"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SET> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonstiges"@de ;
+  dct:title "Miscellaneous"@en ;
+  dct:alternative "SET" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#set"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SEV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Australasien"@de ;
+  dct:title "Australasia"@en ;
+  dct:alternative "SEV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspse.html#sev"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fachbibliographien, Fachnachschlagewerke"@de ;
+  dct:alternative "PA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#pa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie der Erziehung, Pädagogik"@de ;
+  dct:alternative "PB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#pb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Schule und Unterricht, Bildungswissenschaften"@de ;
+  dct:alternative "PC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#pc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Quartärer Bildungsbereich"@de ;
+  dct:alternative "PD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#pd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Erziehung und Bildung im Ausland"@de ;
+  dct:alternative "PE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#pe"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialpädagogik, Sozialarbeit"@de ;
+  dct:alternative "PF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#pf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geschichte der Erziehung und Bildung"@de ;
+  dct:alternative "PG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:P> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Erziehung/erz-syst.html#pg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nachschlagewerke"@de ;
+  dct:alternative "GOA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#goa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geographie als Wissenschaft"@de ;
+  dct:alternative "GOB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gob"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mathematische Geographie und Kartographie"@de ;
+  dct:alternative "GOC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#goc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Physische Geographie und naturwissenschaftliche Nachbardisziplinen"@de ;
+  dct:alternative "GOD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#god"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kulturgeographie und geisteswissenschaftliche Nachbardisziplinen"@de ;
+  dct:alternative "GOE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#goe"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geographie der ganzen Welt. Länderkunde der Erde"@de ;
+  dct:alternative "GOF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gof"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Europa (außer Deutschland; siehe GOH)"@de ;
+  dct:alternative "GOG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gog"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutschland (außer Nordrhein-Westfalen; siehe GOI)"@de ;
+  dct:alternative "GOH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#goh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nordrhein-Westfalen"@de ;
+  dct:alternative "GOI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#goi"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Afrika"@de ;
+  dct:alternative "GOK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gok"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Asien"@de ;
+  dct:alternative "GOL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gol"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Australien und Ozeanien"@de ;
+  dct:alternative "GOM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gom"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GON> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nordamerika"@de ;
+  dct:alternative "GON" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gon"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mittel- und Südamerika"@de ;
+  dct:alternative "GOO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#goo"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Polargebiete"@de ;
+  dct:alternative "GOP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gop"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ozeane"@de ;
+  dct:alternative "GOQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#goq"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Methodik und Didaktik"@de ;
+  dct:alternative "GOR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gor"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GOS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Schulbücher und Arbeitshefte"@de ;
+  dct:alternative "GOS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geographie/bmggo.html#gos"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine und einführende Literatur"@de ;
+  dct:alternative "SDA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sda"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Anthologien"@de ;
+  dct:alternative "SDC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur des Mittelalters, der Reformation und des Humanismus"@de ;
+  dct:alternative "SDD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur des Barock"@de ;
+  dct:alternative "SDE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sde"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur der Aufklärung"@de ;
+  dct:alternative "SDF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur des Sturm und Drang"@de ;
+  dct:alternative "SDG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur der Klassik"@de ;
+  dct:alternative "SDH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur zwischen Klassik und Romantik"@de ;
+  dct:alternative "SDI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdi"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur der Romantik"@de ;
+  dct:alternative "SDJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdj"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur des Biedermeier und Vormärz"@de ;
+  dct:alternative "SDK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur des Realismus"@de ;
+  dct:alternative "SDL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdm"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur des Naturalismus"@de ;
+  dct:alternative "SDM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sda"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur der Jahrhundertwende (um 1900)"@de ;
+  dct:alternative "SDN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdn"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur des Expressionismus"@de ;
+  dct:alternative "SDO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdo"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literatur der Moderne"@de ;
+  dct:alternative "SDP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdp"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kinder- und Jugendliteratur"@de ;
+  dct:alternative "SDR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sda"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Literaturwissenschaft"@de ;
+  dct:alternative "SDS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sds"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Literaturwissenschaft (Fortsetzung)"@de ;
+  dct:alternative "SDT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdt"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Sprachwissenschaft"@de ;
+  dct:alternative "SDV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdv"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDW> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprechkunde und Sprecherziehung"@de ;
+  dct:alternative "SDW" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdw"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutschunterricht"@de ;
+  dct:alternative "SDX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdx"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDY> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Disziplinen des Deutschunterrichts"@de ;
+  dct:alternative "SDY" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdy"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SDZ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Schulbücher"@de ;
+  dct:alternative "SDZ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SD> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsd.html#sdz"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:title "General"@en ;
+  dct:alternative "GEA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gea"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesamtdarstellungen"@de ;
+  dct:alternative "GEB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#geb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelgebiete und -disziplinen"@de ;
+  dct:alternative "GEC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gec"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GED> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Quellen"@de ;
+  dct:alternative "GED" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#ged"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ur- und Frühgeschichte, Archäologie, Altertum"@de ;
+  dct:alternative "GEE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gee"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Geschichte - Mittelalter"@de ;
+  dct:alternative "GEF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gef"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Geschichte - Frühe Neuzeit"@de ;
+  dct:alternative "GEG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#geg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Geschichte - 19. Jahrhundert / Erster Weltkrieg"@de ;
+  dct:alternative "GEH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#geh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Geschichte - Weimarer Republik"@de ;
+  dct:alternative "GEI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gei"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Geschichte - Nationalsozialismus"@de ;
+  dct:alternative "GEK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gek"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Geschichte - Zweiter Weltkrieg"@de ;
+  dct:alternative "GEL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gel"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Geschichte seit 1945"@de ;
+  dct:alternative "GEM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gem"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geschichte und Politik außerdeutscher Staaten"@de ;
+  dct:alternative "GEN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gen"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutsche Landesgeschichte (ohne NRW)"@de ;
+  dct:alternative "GEP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#gep"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rheinisch-westfälische Landesgeschichte"@de ;
+  dct:alternative "GEQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#geq"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GET> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Schulbücher für alle Schularten (Unterrichtswerke, Arbeitsmaterialien, Quellen, Lesestoffe)"@de ;
+  dct:alternative "GET" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#get"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GEU> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Didaktik und Methodik des Geschichtsunterrichts"@de ;
+  dct:alternative "GEU" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:GE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Geschichte/bspge.html#geu"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nachschlagewerke"@de ;
+  dct:alternative "JOA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#joa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialwissenschaftliche Grundlagen"@de ;
+  dct:alternative "JOB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#job"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rechtliche Grundlagen"@de ;
+  dct:alternative "JOD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#jod"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Grundlagen des politischen Systems"@de ;
+  dct:alternative "JOE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#joe"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ökonomische Grundlagen"@de ;
+  dct:alternative "JOF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#jof"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kommunikationswissenschaft, Journalistik"@de ;
+  dct:alternative "JOH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#joh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Entwicklung und Struktur der Medien"@de ;
+  dct:alternative "JOK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#jok"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Informations- und Kommunikationstechniken. Technik: Strukturen, soziale Folgen"@de ;
+  dct:alternative "JOL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#jol"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Tätigkeitsfelder, Arbeitsrollen, Produktinhalte"@de ;
+  dct:alternative "JOM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#jom"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Berufsfragen des Journalismus"@de ;
+  dct:alternative "JOO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#joo"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Darstellungsformen, Arbeitstechniken, Produktionstechnik"@de ;
+  dct:alternative "JOR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#jor"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JOT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Literatur über Journalisten"@de ;
+  dct:alternative "JOT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:JO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Journalistik/bspjo.html#jot"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kunstwissenschaftliche Handbücherei"@de ;
+  dct:alternative "KB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kunsttheorie, Kunstwissenschaft und allgemeine Kunstgeschichte (international, alle Epochen)"@de ;
+  dct:alternative "KC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ikonographie und Ikonologie"@de ;
+  dct:alternative "KD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Quellenkunde und Quellenschriften"@de ;
+  dct:alternative "KE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#ke"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Künstler-Monographien (Auch Monographien über einzelne Werke oder Leben der Künstler)"@de ;
+  dct:alternative "KF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Deutschland"@de ;
+  dct:alternative "KG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KHa> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Österreich"@de ;
+  dct:alternative "KHa" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kha"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KHs> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Schweiz"@de ;
+  dct:alternative "KHs" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#khs"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Italien"@de ;
+  dct:alternative "KJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kj"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Frankreich"@de ;
+  dct:alternative "KK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Benelux-Länder"@de ;
+  dct:alternative "KL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kl"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Großbritannien und Irland"@de ;
+  dct:alternative "KM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#km"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Spanien und Portugal"@de ;
+  dct:alternative "KN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kn"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KOa> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Nordische Länder (Dänemark, Island, Schweden, Norwegen, Finnland)"@de ;
+  dct:alternative "KOa" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#koa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KOv> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Balkan-Länder (Ungarn, Jugoslawien und Albanien, Griechenland, Bulgarien und Rumänien)"@de ;
+  dct:alternative "KOv" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kov"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KOr> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Osteuropäische Länder (Polen und Litauen, Baltikum, Europäische Sowjetunion)"@de ;
+  dct:alternative "KOr" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kor"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Außereuropäische Kulturen (Afrika, Amerika, Asien, Australien, Südsee)"@de ;
+  dct:alternative "KP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kp"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPa> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Vorderasien (Türkei, Armenien, Syrien, Palästina, iranisch-islamische Völker, arabische Staaten)"@de ;
+  dct:alternative "KPa" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kpa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPc> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Ostasien (China, Japan, sibirisch-mongolische Völker, Indien, Malaiische Inseln)"@de ;
+  dct:alternative "KPc" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kpc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPf> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Afrika"@de ;
+  dct:alternative "KPf" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kpf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPs> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Amerika (Nordamerika, Mittelamerika, Südamerika)"@de ;
+  dct:alternative "KPs" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kps"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KPv> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographische Abteilung - Australien und Südsee"@de ;
+  dct:alternative "KPv" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kpv"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Visuelle Medien"@de ;
+  dct:alternative "KQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kq"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Miniaturen, Buchmalerei"@de ;
+  dct:alternative "KR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kr"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Graphik (Handzeichnung, Druckgraphik, Buchwesen)"@de ;
+  dct:alternative "KS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#ks"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ornament"@de ;
+  dct:alternative "KT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kt"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KU> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kunstgewerbe"@de ;
+  dct:alternative "KU" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#ku"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Realia"@de ;
+  dct:alternative "KV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kv"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KW> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kunsttechnik und Kunstpflege"@de ;
+  dct:alternative "KW" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kw"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Didaktik, Sonstiges"@de ;
+  dct:alternative "KX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kx"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KY> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Hochschulschriften"@de ;
+  dct:alternative "KY" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#ky"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KZI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kongresse und Institutionen"@de ;
+  dct:alternative "KZI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kzi"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KZSK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sammlungskataloge"@de ;
+  dct:alternative "KZSK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kzsk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:KZVK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Verkaufs- und Versteigerungskataloge"@de ;
+  dct:alternative "KZVK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:K> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_kunst.html#kzvk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nachschlagewerke"@de ;
+  dct:alternative "MUA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mua"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sammelwerke"@de ;
+  dct:alternative "MUB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mub"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Musik und Medien"@de ;
+  dct:alternative "MUC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nachbargebiete, Varia"@de ;
+  dct:alternative "MUD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mud"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Musikerziehung"@de ;
+  dct:alternative "MUE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mue"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Musikdidaktik und -methodik"@de ;
+  dct:alternative "MUF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Systematische Musikwissenschaft"@de ;
+  dct:alternative "MUG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mug"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Musikgeschichte"@de ;
+  dct:alternative "MUH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Anfänge bis Renaissance"@de ;
+  dct:alternative "MUJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muj"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Barock"@de ;
+  dct:alternative "MUK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Klassik"@de ;
+  dct:alternative "MUL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mul"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Romantik, Spätromantik"@de ;
+  dct:alternative "MUM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mum"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Moderne"@de ;
+  dct:alternative "MUN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mun"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gattungen"@de ;
+  dct:alternative "MUO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muo"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Unterhaltungsmusik, Jazz"@de ;
+  dct:alternative "MUP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mup"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Volksmusik, Folklore"@de ;
+  dct:alternative "MUR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mur"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kirchenmusik"@de ;
+  dct:alternative "MUS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mus"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Musiktheorie"@de ;
+  dct:alternative "MUT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mut"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUU> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Studienpartituren"@de ;
+  dct:alternative "MUU" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muu"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Große Partituren, Klavier-Auszüge"@de ;
+  dct:alternative "MUV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muv"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUW> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sing- und Spielmusiksammlungen"@de ;
+  dct:alternative "MUW" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muw"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Studienmaterial"@de ;
+  dct:alternative "MUX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#mux"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MUY> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Tonträger (Schallplatten /CDs /Videos)"@de ;
+  dct:alternative "MUY" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:MU> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Musik/bmg_musik_syst.html#muy"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:alternative "PHA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#pha"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophische Lexika"@de ;
+  dct:alternative "PHB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Historische Darstellungen"@de ;
+  dct:alternative "PHC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sammelwerke"@de ;
+  dct:alternative "PHD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Systematische Philosophie: Allgemeine Darstellungen"@de ;
+  dct:alternative "PHE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phe"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Das Erkenntnisproblem"@de ;
+  dct:alternative "PHF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ethik"@de ;
+  dct:alternative "PHG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ästhetik"@de ;
+  dct:alternative "PHH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Anthropologie und Psychologie"@de ;
+  dct:alternative "PHJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phj"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesellschaftsphilosophie"@de ;
+  dct:alternative "PHK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Religionsphilosophie"@de ;
+  dct:alternative "PHL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phl"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Das Wirklichkeitsproblem"@de ;
+  dct:alternative "PHM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phm"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Didaktik der Philosophie"@de ;
+  dct:alternative "PHN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phn"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie außereuropäischer Kulturräume"@de ;
+  dct:alternative "PHO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#pho"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Antike Philosophie"@de ;
+  dct:alternative "PHP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#php"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mittelalterliche Philosophie"@de ;
+  dct:alternative "PHQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phq"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie der Neuzeit (15.-16. Jahrhundert)"@de ;
+  dct:alternative "PHR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phr"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie der Neuzeit (17.-18. Jahrhundert)"@de ;
+  dct:alternative "PHS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phs"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie der Neuzeit (19. Jahrhundert)"@de ;
+  dct:alternative "PHT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#pht"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHU> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie der Neuzeit (20.-21. Jahrhundert)"@de ;
+  dct:alternative "PHU" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phu"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie der Neuzeit (20.-21. Jahrhundert) - Fortsetzung"@de ;
+  dct:alternative "PHV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phv"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHW> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Pragmatismus"@de ;
+  dct:alternative "PHW" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phw"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Phänomenologie"@de ;
+  dct:alternative "PHX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phx"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PHY> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Existenzphilosophie / Existenzialismus"@de ;
+  dct:alternative "PHY" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Philosophie/phil-syst.html#phy"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:alternative "POA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#poa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitsbereiche und Nachbardisziplinen"@de ;
+  dct:alternative "POB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pob"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Theorie und Methodologie"@de ;
+  dct:alternative "POC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#poc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Doxographie"@de ;
+  dct:alternative "POD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pod"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Bildung und Didaktik"@de ;
+  dct:alternative "POE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#poe"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politisches Verhalten"@de ;
+  dct:alternative "POF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pof"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Systeme"@de ;
+  dct:alternative "POG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pog"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Elemente politischer Ordnung"@de ;
+  dct:alternative "POI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#poi"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wahlen"@de ;
+  dct:alternative "POK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pok"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Parlamentarismus"@de ;
+  dct:alternative "POL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pol"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Regierung / Verwaltung / Organisation"@de ;
+  dct:alternative "POM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pom"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PON> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Justiz"@de ;
+  dct:alternative "PON" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pon"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Parteien / Interessenverbände / Gruppen"@de ;
+  dct:alternative "POO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#poo"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Öffentlichkeit und Medien"@de ;
+  dct:alternative "POQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#poq"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Sachbereiche"@de ;
+  dct:alternative "POR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#por"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutschlandpolitik"@de ;
+  dct:alternative "POS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pos"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesellschaftspolitik"@de ;
+  dct:alternative "POT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pot"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POU> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Friedens- und Sicherheitspolitik (Militärpolitik)"@de ;
+  dct:alternative "POU" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pou"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kommunal- und Regionalpolitik"@de ;
+  dct:alternative "POV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pov"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POW> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Transnationale und Internationale Politik"@de ;
+  dct:alternative "POW" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#pow"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:POY> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Kultur"@de ;
+  dct:alternative "POY" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PO> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Politik/poli-syst.html#poy"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:alternative "PSA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Psychologie"@de ;
+  dct:alternative "PSB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Entwicklungspsychologie"@de ;
+  dct:alternative "PSC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Persönlichkeitspsychologie"@de ;
+  dct:alternative "PSD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wissenschaftstheorie, Methodologie"@de ;
+  dct:alternative "PSE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#pse"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Tests, Psychodiagnostik"@de ;
+  dct:alternative "PSF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ausdruckspsychologie"@de ;
+  dct:alternative "PSG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialpsychologie"@de ;
+  dct:alternative "PSH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Organisationspsychologie"@de ;
+  dct:alternative "PSJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psj"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Forensische Psychologie"@de ;
+  dct:alternative "PSK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Klinische Psychologie und Psychotherapie"@de ;
+  dct:alternative "PSN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psn"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Tiefenpsychologie"@de ;
+  dct:alternative "PSO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#pso"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Religionspsychologie"@de ;
+  dct:alternative "PSP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psp"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sexualpsychologie"@de ;
+  dct:alternative "PSR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#psr"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PSS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Populärwissenschaft"@de ;
+  dct:alternative "PSS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#pss"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PST> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Parapsychologie"@de ;
+  dct:alternative "PST" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:PS> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Psychologie/psy-syst.html#pst"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A000> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nachschlagewerke"@de ;
+  dct:alternative "A 000" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a000"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A100> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Anthropologie"@de ;
+  dct:alternative "A 100" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a100"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A200> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Erziehungs- und Bildungswissenschaften"@de ;
+  dct:alternative "A 200" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a200"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A300> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rehabilitation und Pädagogik"@de ;
+  dct:alternative "A 300" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a300"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A400> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialpädagogik"@de ;
+  dct:alternative "A 400" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a400"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A500> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Psychologie, Psychiatrie"@de ;
+  dct:alternative "A 500" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a500"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A600> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Soziologie"@de ;
+  dct:alternative "A 600" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a600"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A700> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Medizin"@de ;
+  dct:alternative "A 700" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a700"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:A800> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonstige Wissenschaftsgebiete"@de ;
+  dct:alternative "A 800" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#a800"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:ASP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprache und Kommunikation in Rehabilitation und Pädagogik"@de ;
+  dct:alternative "ASP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:Reha> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sondererziehung/reha-syst.html#asp"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Hilfsmittel, Nachschlagewerke und Wörterbücher des Französischen"@de ;
+  dct:alternative "SFA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Französische Sprache"@de ;
+  dct:alternative "SFB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Französische Literatur"@de ;
+  dct:alternative "SFC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Landeskunde Frankreichs"@de ;
+  dct:alternative "SFK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fachdidaktik und Unterrichtsmittel"@de ;
+  dct:alternative "SFL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfl"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Italienische Sprache und Literatur"@de ;
+  dct:alternative "SFM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfm"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Spanische und Portugiesische Sprache und Literatur"@de ;
+  dct:alternative "SFN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfn"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Neugriechische Sprache und Literatur"@de ;
+  dct:alternative "SFO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfo"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Slawische Sprachen und Literaturen"@de ;
+  dct:alternative "SFP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfp"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonstige indoeuropäische Sprachen und Literaturen"@de ;
+  dct:alternative "SFQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfq"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFR> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Germanische Sprachen und Literaturen"@de ;
+  dct:alternative "SFR" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfr"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Semitische Sprachen und Literaturen"@de ;
+  dct:alternative "SFS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfs"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Türkische Sprache und Literatur"@de ;
+  dct:alternative "SFT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sft"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SFV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonstige Sprachen und Literaturen"@de ;
+  dct:alternative "SFV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SF> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsf.html#sfv"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie 1"@de ;
+  dct:alternative "LEA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie 2"@de ;
+  dct:alternative "LEB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie 3"@de ;
+  dct:alternative "LEC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LED> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie 4"@de ;
+  dct:alternative "LED" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie 5"@de ;
+  dct:alternative "LEE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie 6"@de ;
+  dct:alternative "LEF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 1"@de ;
+  dct:alternative "LEG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 2"@de ;
+  dct:alternative "LEH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 3"@de ;
+  dct:alternative "LEJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 4"@de ;
+  dct:alternative "LEK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 5"@de ;
+  dct:alternative "LEL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 6"@de ;
+  dct:alternative "LEM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 7"@de ;
+  dct:alternative "LEN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 8"@de ;
+  dct:alternative "LEO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 9"@de ;
+  dct:alternative "LEP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Einzelne Sportarten 10"@de ;
+  dct:alternative "LEQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LER> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ausbildung, Organisation 1"@de ;
+  dct:alternative "LER" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LES> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ausbildung, Organisation 2"@de ;
+  dct:alternative "LES" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LET> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ausbildung, Organisation 3"@de ;
+  dct:alternative "LET" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ausbildung, Organisation 4"@de ;
+  dct:alternative "LEV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEW> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ausbildung, Organisation 5"@de ;
+  dct:alternative "LEW" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ausbildung, Organisation 6"@de ;
+  dct:alternative "LEX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LEY> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Diplomarbeiten"@de ;
+  dct:alternative "LEY" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:LE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sport/bmg_sport_systematik.html"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SAA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:alternative "SAA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#saa"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprachtheorie"@de ;
+  dct:alternative "SBB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#sbb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Angewandte Sprachwissenschaft"@de ;
+  dct:alternative "SBC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#sbc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprachbeschreibung, -Struktur, Grammatik"@de ;
+  dct:alternative "SBD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#sbd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Lexikologie, Semantik"@de ;
+  dct:alternative "SBE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#sbe"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SBH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Stilistik"@de ;
+  dct:alternative "SBH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#sbh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Literaturtheorie"@de ;
+  dct:alternative "SCB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#scb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Werk- und Textbeschreibung"@de ;
+  dct:alternative "SCC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#scc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Inhaltliche Gattungen"@de ;
+  dct:alternative "SCD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#scd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Formale Gattungen"@de ;
+  dct:alternative "SCE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#sce"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theater, Film usw."@de ;
+  dct:alternative "SCF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#scf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Literatur von und für einzelne Gruppen"@de ;
+  dct:alternative "SCJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#scj"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Literaturgeschichte, Weltliteratur"@de ;
+  dct:alternative "SCK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#sck"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:SCL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Anthologien zur Weltliteratur"@de ;
+  dct:alternative "SCL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:S> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Literaturwissenschaften/bspsaa.html#scl"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nachschlagewerke, Allgemeines"@de ;
+  dct:alternative "TEA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tea"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textiltechnologie"@de ;
+  dct:alternative "TEB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#teb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Stoffverarbeitung, Bekleidungstechnologie und -physiologie"@de ;
+  dct:alternative "TEC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tec"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TED> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textil- und Bekleidungswirtschaft"@de ;
+  dct:alternative "TED" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#ted"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kulturgeschichte der Textilien - Allgemeines"@de ;
+  dct:alternative "TEE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tee"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kulturgeschichte der Textilien - Theorien, Methoden"@de ;
+  dct:alternative "TEF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tef"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ästhetik, Design, Farbenlehre"@de ;
+  dct:alternative "TEG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#teg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Herstellungsverfahren (historisch–regional)"@de ;
+  dct:alternative "TEH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#teh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kleidung, Tracht, Mode / Allgemeines"@de ;
+  dct:alternative "TEI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tei"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kleidung"@de ;
+  dct:alternative "TEK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tek"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Volkstrachten"@de ;
+  dct:alternative "TEL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tel"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kostümgeschichte, Mode"@de ;
+  dct:alternative "TEM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tem"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Raumtextilien, textile Wohnformen"@de ;
+  dct:alternative "TEN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#ten"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEO> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textile Gebrauchsobjekte, Spielzeug, Puppen"@de ;
+  dct:alternative "TEO" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#teo"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textilkonservierung und –restaurierung"@de ;
+  dct:alternative "TEP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tep"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textile Kunst (textile art, textile sculpture)"@de ;
+  dct:alternative "TEQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#teq"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TES> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fachdidaktik"@de ;
+  dct:alternative "TES" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tes"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TEX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textilgestaltung in der Praxis, Arbeitsanleitungen"@de ;
+  dct:alternative "TEX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TE> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Kunst/bmg_systematik_textil.html#tex"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:alternative "THA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#tha"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theologie und Nachbargebiete"@de ;
+  dct:alternative "THB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thb"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibelausgaben / Bibelwissenschaften"@de ;
+  dct:alternative "THC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thc"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Altes Testament"@de ;
+  dct:alternative "THD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thd"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Neues Testament"@de ;
+  dct:alternative "THE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#the"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Religionswissenschaften / Konfessionskunde"@de ;
+  dct:alternative "THF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thf"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kirchengeschichte"@de ;
+  dct:alternative "THG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thg"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THH> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fundamentaltheologie"@de ;
+  dct:alternative "THH" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thh"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THI> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Dogmatik / Systematische Theologie"@de ;
+  dct:alternative "THI" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thi"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Christliche Ethik / Moraltheologie"@de ;
+  dct:alternative "THJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thj"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Christliche Gesellschaftslehre"@de ;
+  dct:alternative "THK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thk"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Religionspädagogik"@de ;
+  dct:alternative "THL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thl"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Didaktik und Methodik des Religionsunterricht"@de ;
+  dct:alternative "THM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thm"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:THN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Praktische Theologie"@de ;
+  dct:alternative "THN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-12:TH> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Theologie/theo-syst.html#thn"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .

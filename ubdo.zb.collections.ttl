@@ -1,0 +1,607 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lobid_orga: <http://lobid.org/organisations/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix powder: <http://www.w3.org/2007/05/powder#> .
+
+lobid_orga:DE-290 a ecrm:E39_Actor .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Zentralbibliothek"@de ;
+  dct:title "Central Library"@en ;
+  dct:alternative "ZB" ;
+  powder:describedby "https://www.ub.tu-dortmund.de/FuerSie/Zentral.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Rara> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:HB> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:A> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Ba> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Be> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Bg> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Bk> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Bt> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:C> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Cp> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:D> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Diss> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:DissDo> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:E> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:EGM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:EGZ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:F> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Fn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:G> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Jb> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Jc> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Jf> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Js> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:K> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:L> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:M> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:N> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:P> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Q> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:S> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Sn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:T> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:V> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:W> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Wn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:X> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Xn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Y> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Ya> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Yb> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Yf> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Yn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZA> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBa> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBe> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBg> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBk> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBt> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZC> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZD> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZE> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZF> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZFn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZG> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZK> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZL> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZM> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZN> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZP> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZQ> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZS> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZSn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZT> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZV> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZW> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZWn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZX> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZXn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZY> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZYf> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZYn> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZYX> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Rara> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rara: wertvoller Bestand"@de ;
+  dct:title "\"Rara\": Rare and valuable books"@en ;
+  dct:alternative "Rara" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:HB> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Handbibliothek"@de ;
+  dct:title "Reference Library"@en ;
+  dct:alternative "HB" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:A> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, Buch- und Bibliothekswesen, Forschung und Wissenschaft"@de ;
+  dct:title "General, Book Studies and Library Science, Research and Science"@en ;
+  dct:alternative "A" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Ba> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie"@de ;
+  dct:title "Philosophy"@en ;
+  dct:alternative "Ba" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Be> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Psychologie"@de ;
+  dct:title "Psychology"@en ;
+  dct:alternative "Be" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Bg> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Erziehung und Bildung"@de ;
+  dct:title "Education"@en ;
+  dct:alternative "Bg" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Bk> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rehabilitation und Behindertenpädagogik"@de ;
+  dct:title "Rehabilitation Sciences, Special Needs Education"@en ;
+  dct:alternative "Bk" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Bt> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Religionswissenschaften und Theologie"@de ;
+  dct:title "Religious Studies and Theology"@en ;
+  dct:alternative "Bt" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:C> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprach- und Literaturwissenschaften"@de ;
+  dct:title "Linguistics and Literature studies"@en ;
+  dct:alternative "C" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Cp> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Journalistik"@de ;
+  dct:title "Journalism"@en ;
+  dct:alternative "Cp" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:D> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geschichte und Politik"@de ;
+  dct:title "History and Politics"@en ;
+  dct:alternative "D" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Diss> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Dissertationen"@de ;
+  dct:title "Theses"@en ;
+  dct:alternative "Diss" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:DissDo> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Dissertationen der TU Dortmund"@de ;
+  dct:title "Theses of TU Dortmund University"@en ;
+  dct:alternative "DissDo" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:E> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geographie"@de ;
+  dct:title "Geography"@en ;
+  dct:alternative "E" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:EGM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibliothek der Deutschen Gesellschaft für Eisenbahngeschichte / Bücher"@de ;
+  dct:title "Collection of the German Association for Railway History (DGEG) / Books"@en ;
+  dct:alternative "EGM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:EGZ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibliothek der Deutschen Gesellschaft für Eisenbahngeschichte / Zeitschriften"@de ;
+  dct:title "Collection of the German Association for Railway History (DGEG) / Journals"@en ;
+  dct:alternative "EGZ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:F> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftswissenschaften"@de ;
+  dct:title "Economics"@en ;
+  dct:alternative "F" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Fn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialwissenschaften"@de ;
+  dct:title "Social Sciences"@en ;
+  dct:alternative "Fn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME_A-GJ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bestand der Forschungsstelle Ostmitteleuropa"@de ;
+  dct:title "Collection of the FOME Research Centre for East-Central Europe"@en ;
+  dct:alternative "FOME A - GJ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:FOME_Kb> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Jugendbuchsammlung Forschungsstelle Ostmitteleuropa"@de ;
+  dct:title "Collection of children's and juvenile books of the FOME Research Centre for East-Central Europe"@en ;
+  dct:alternative "FOME Kb" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:G> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rechtswissenschaften"@de ;
+  dct:title "Law"@en ;
+  dct:alternative "G" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Jb> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bestand der ehemaligen Pädagogischen Hochschule Ruhr, Jugendbuchsammlung"@de ;
+  dct:title "Collection of juvenile books of the former Ruhr, College of Education"@en ;
+  dct:alternative "Jb" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Jc> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bestand der ehemaligen Pädagogischen Hochschule Ruhr, Zentralbibliothek"@de ;
+  dct:title "Collection of the former Ruhr College of Education, main library"@en ;
+  dct:alternative "Jc" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Jf> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bestand des Frauenarchivs"@de ;
+  dct:title "Collection of the Women's Archive"@en ;
+  dct:alternative "Jf" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  powder:describedby <https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/frauenarchiv.html> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Js> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bestand der ehemaligen Bibliothek der Forschungsstelle für Politische und Soziale Geschichte der Schule"@de ;
+  dct:title "Collection of the former Library of the Research Centre for the Political and Social History of Education"@en ;
+  dct:alternative "Js" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:K> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Naturwissenschaften"@de ;
+  dct:title "Sciences (general)"@en ;
+  dct:alternative "K" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:L> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Biologie, Naturschutz, Umweltschutz, Medizin"@de ;
+  dct:title "Biology, Ecology, Environmental Science, Medicine"@en ;
+  dct:alternative "L" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:M> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mathematik"@de ;
+  dct:title "Mathematics"@en ;
+  dct:alternative "M" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:N> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Physik"@de ;
+  dct:title "Physics"@en ;
+  dct:alternative "N" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:P> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Chemie"@de ;
+  dct:title "Chemistry"@en ;
+  dct:alternative "P" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Q> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Chemietechnik"@de ;
+  dct:title "Chemical Engineering"@en ;
+  dct:alternative "Q" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:S> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Technik, Regelungstechnik, Meßtechnik"@de ;
+  dct:title "Technology (general), Control engineering, Measurement engineering"@en ;
+  dct:alternative "S" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Sn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Informatik, Datenverarbeitung"@de ;
+  dct:title "Computer sciences, Data processing"@en ;
+  dct:alternative "Sn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:T> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Maschinenbau"@de ;
+  dct:title "Mechanical engineering"@en ;
+  dct:alternative "T" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:V> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Elektrotechnik"@de ;
+  dct:title "Electrical engineering"@en ;
+  dct:alternative "V" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:W> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Grundstoffindustrie"@de ;
+  dct:title "Primary industries"@en ;
+  dct:alternative "W" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Wn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geowissenschaften"@de ;
+  dct:title "Geoscience"@en ;
+  dct:alternative "Wn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:X> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Raumplanung, Städtebau"@de ;
+  dct:title "Spatial Planning, Civil Engineering"@en ;
+  dct:alternative "X" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Xn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bauingenieur- und Verkehrswesen"@de ;
+  dct:title "Construction Engineering and Transportation"@en ;
+  dct:alternative "Xn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Y> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kunst"@de ;
+  dct:title "Art"@en ;
+  dct:alternative "Y" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Ya> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Architektur"@de ;
+  dct:title "Architecture"@en ;
+  dct:alternative "Ya" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Yb> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textilgestaltung"@de ;
+  dct:title "Cultural Anthropology of Textiles"@en ;
+  dct:alternative "Yb" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Yf> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Musik"@de ;
+  dct:title "Music"@en ;
+  dct:alternative "Yf" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:Yn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sport, Leibeserziehung"@de ;
+  dct:title "Sport"@en ;
+  dct:alternative "Yn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZA> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, Buch- und Bibliothekswesen, Forschung und Wissenschaft - Zeitschriften"@de ;
+  dct:title "General, Book Studies and Library Science, Research and Science - Journals"@en ;
+  dct:alternative "ZA" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBa> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie - Zeitschriften"@de ;
+  dct:title "Philosophy - Journals"@en ;
+  dct:alternative "ZBa" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBe> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Psychologie - Zeitschriften"@de ;
+  dct:title "Psychology - Journals"@en ;
+  dct:alternative "ZBe" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBg> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Erziehung und Bildung - Zeitschriften"@de ;
+  dct:title "Education - Journals"@en ;
+  dct:alternative "ZBg" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBk> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rehabilitation und Behindertenpädagogik - Zeitschriften"@de ;
+  dct:title "Rehabilitation Sciences, Special Needs Education - Journals"@en ;
+  dct:alternative "ZBk" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZBt> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Religionswissenschaften und Theologie - Zeitschriften"@de ;
+  dct:title "Religious Studies and Theology - Journals"@en ;
+  dct:alternative "ZBt" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZC> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprach- und Literaturwissenschaften - Zeitschriften"@de ;
+  dct:title "Linguistics and Literature studies - Journals"@en ;
+  dct:alternative "ZC" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZD> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geschichte und Politik - Zeitschriften"@de ;
+  dct:title "History and Politics - Journals"@en ;
+  dct:alternative "ZD" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZE> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geographie - Zeitschriften"@de ;
+  dct:title "Geography - Journals"@en ;
+  dct:alternative "ZE" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZF> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftswissenschaften - Zeitschriften"@de ;
+  dct:title "Economics - Journals"@en ;
+  dct:alternative "ZF" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZFn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialwissenschaften - Zeitschriften"@de ;
+  dct:title "Social Sciences - Journals"@en ;
+  dct:alternative "ZFn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZG> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rechtswissenschaften - Zeitschriften"@de ;
+  dct:title "Law - Journals"@en ;
+  dct:alternative "ZG" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZK> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Naturwissenschaften - Zeitschriften"@de ;
+  dct:title "Sciences (general) - Journals"@en ;
+  dct:alternative "ZK" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZL> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Biologie, Naturschutz, Umweltschutz, Medizin - Zeitschriften"@de ;
+  dct:title "Biology, Ecology, Environmental Science, Medicine - Journals"@en ;
+  dct:alternative "ZL" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZM> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mathematik - Zeitschriften"@de ;
+  dct:title "Mathematics - Journals"@en ;
+  dct:alternative "ZM" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZN> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Physik - Zeitschriften"@de ;
+  dct:title "Physics - Journals"@en ;
+  dct:alternative "ZN" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZP> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Chemie - Zeitschriften"@de ;
+  dct:title "Chemistry - Journals"@en ;
+  dct:alternative "ZP" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZQ> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Chemietechnik - Zeitschriften"@de ;
+  dct:title "Chemical Engineering - Journals"@en ;
+  dct:alternative "ZQ" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZS> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Technik, Regelungstechnik, Meßtechnik - Zeitschriften"@de ;
+  dct:title "Technology (general), Control engineering, Measurement engineering - Journals"@en ;
+  dct:alternative "ZS" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZSn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Informatik, Datenverarbeitung - Zeitschriften"@de ;
+  dct:title "Computer sciences, Data processing - Journals"@en ;
+  dct:alternative "ZSn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZT> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Maschinenbau - Zeitschriften"@de ;
+  dct:title "Mechanical engineering - Journals"@en ;
+  dct:alternative "ZT" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZV> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Elektrotechnik - Zeitschriften"@de ;
+  dct:title "Electrical engineering - Journals"@en ;
+  dct:alternative "ZV" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZW> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Grundstoffindustrie - Zeitschriften"@de ;
+  dct:title "Primary industries - Journals"@en ;
+  dct:alternative "ZW" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZWn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geowissenschaften - Zeitschriften"@de ;
+  dct:title "Geoscience - Journals"@en ;
+  dct:alternative "ZWn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Raumplanung, Städteba - Zeitschriftenu"@de ;
+  dct:title "Spatial Planning, Civil Engineering - Journals"@en ;
+  dct:alternative "ZX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZXn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bauingenieur- und Verkehrswesen - Zeitschriften"@de ;
+  dct:title "Construction Engineering and Transportation - Journals"@en ;
+  dct:alternative "ZXn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZY> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kunst - Zeitschriften"@de ;
+  dct:title "Art - Journals"@en ;
+  dct:alternative "ZY" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZYf> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Musik - Zeitschriften"@de ;
+  dct:title "Music - Journals"@en ;
+  dct:alternative "ZYf" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZYn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sport, Leibeserziehung - Zeitschriften"@de ;
+  dct:title "Sport - Journals"@en ;
+  dct:alternative "ZYn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-0:ZYX> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Zeitschriften auf CD-ROM"@de ;
+  dct:title "Journals on CD-ROM"@en ;
+  dct:alternative "ZYX" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-0> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+

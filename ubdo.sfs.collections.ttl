@@ -1,0 +1,1589 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lobid_orga: <http://lobid.org/organisations/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix powder: <http://www.w3.org/2007/05/powder#> .
+
+lobid_orga:DE-290 a ecrm:E39_Actor .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibliothek Sozialforschungsstelle"@de ;
+  dct:title "Library Sozialforschungsstelle"@en ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschafts_und_Sozialwissenschaften> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Mathematik_und_Statistik> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Informatik> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verwaltung> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Techniksoziologie> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Produktion> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Standortprobleme> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marketing> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Investition_und_Finanzierung> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechnungswesen> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Betriebswirtschaftslehre> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Volkswirtschaftslehre> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marktwirtschaft> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verteilungstheorie_und_Verteilungspolitik> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Beschäftigung_Konjunktur,_Wachstum> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Welfare_Economics> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geld_Kredit_Währung> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Außenwirtschaft> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Integration> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftspolitik> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftssysteme_und_Wirtschaftsordnungen> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wettbewerbspolitik_und_Konzentrationsforschung> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verkehrswesen_und_Verkehrspolitik> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Staatssektor> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Finanzwissenschaft> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Entwicklungstheorie_und_Entwicklungspolitik> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bevölkerungslehre> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geschichte> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geographie> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politische_Ökonomie> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politikwissenschaft> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wissenschaft_Forschung> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bildung> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonderformate> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Formalgruppen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#formal"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:50> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:90> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:100> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:150> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:200> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:250> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:350> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:400> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:450> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:500> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:550> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:600> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:650> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:700> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:750> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:50> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibliographie, retrospektiv"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:90> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bibliographien, periodisch"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:100> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Enzyklopädien, Konversationslexika"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:150> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Adressbücher, Ortsverzeichnisse, Abkürzungsverzeichnisse"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:200> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Organisationen-, Gesellschaften-, Firmen-, Amtsverzeichnisse, Personalverzeichnisse"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:250> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wissenschaftliche Gesellschaften, Forschungsstätten, Förderungsorganisationen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:350> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sprachwörterbücher, Duden, Fachwörterbücher"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:400> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Karten, Atlanten"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:450> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Hochschulverzeichnisse, Studienführer"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:500> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fachlexika, fachliche Handbücher, Fremdwörterbücher"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:550> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Biographien (einschl. Personalbibliographien)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:600> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Festschriften (allgemein)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:650> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Serien, Tagungsberichte (allgemein)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:700> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesamtausgaben, Teilausgaben"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:750> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Belletristik, populäre Darstellungen, Varia"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Formalgruppen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Soziologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#soz"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1000> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1050> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1000> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Soziologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1050> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Soziologische Theorien"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschafts_und_Sozialwissenschaften> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Methoden der Wirtschafts- und Sozialwissenschaften"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#methoden"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1100> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1110> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1120> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1150> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1100> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschafts- und sozialwissenschaftliche Methodenlehre; Technik des wissenschaftlichen Arbeitens; Erkenntnistheorie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschafts_und_Sozialwissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1110> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Empirische Sozialforschung - Methoden und Techniken (Datenerhebungstechniken; Datenaufbereitung u. Datenanalyse)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschafts_und_Sozialwissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1120> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Empirische Wirtschaftsforschung - Theorie und Methodologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschafts_und_Sozialwissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1150> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftswissenschaften, allgemein"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschafts_und_Sozialwissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Mathematik_und_Statistik> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mathematik und Statistik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#mathstat"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1300> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1330> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1340> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1300> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, Lehrbücher"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Mathematik_und_Statistik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1330> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Methoden der wirtschafts- und sozialwissenschaftlichen Statistik, mathematische Statistik; statistische Quellen in der BRD (nach Herausgeber)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Mathematik_und_Statistik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1340> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Statistiken (themenübergreifend)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Mathematik_und_Statistik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Informatik> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Informatik, EDV-Grundlagen, Datenschutz"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#edv"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1400> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1410> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1420> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1430> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1400> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeine Grundlagen der EDV, Informatik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Informatik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1410> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Handbücher von EDV-Software"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Informatik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1420> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Programmiersprachen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Informatik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:1430> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Datenschutz, Informationstechnologie in der Gesellschaft"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Informatik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Organisation(-stheorie) und Management"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#organisation"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2020> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2025> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2030> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2032> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2040> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2045> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2050> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2055> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2020> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Organisationstheorie (allgemeines)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2025> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Unternehmensführung und Management (Managementkonzepte; Unternehmenskultur; Arbeitskreise; Gruppenarbeit; Kaizen, KVP, Lean Production; Qualitätszirkel)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2030> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wissensmanagement, lernende Organisation"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2032> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Planung und Kontrolle (Projektmanagement)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2040> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Unternehmenszusammenschlüsse, Kooperation, Unternehmensnetzwerke"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2045> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Organisation"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2050> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Management-Informationssysteme, betriebliche Kommunikationssysteme (Controlling; Mitarbeiterbefragung, Gesprächsführung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2055> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "EDV in Organisation und Planung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Organisation_und_Management> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verwaltung> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Organisation(-stheorie) und Management"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2100> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2100> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Verwaltung (Bürgerhäuser; kommunale Verwaltung; schlanke Verwaltung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verwaltung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Personalwesen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#personal"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2300> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2305> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2306> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2307> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2308> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2309> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2310> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2311> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2315> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2320> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2300> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2305> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitswissenschaften"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2306> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ergonomie, Arbeitsphysiologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2307> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitspsychologie; Arbeitspädagogik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2308> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesundheitsschutz; Arbeitsschutz, Unfallforschung, Unfallverhütung (betrieblicher Umweltschutz)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2309> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitstechnologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2310> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeits(platz)gestaltung, Arbeits(platz)bewertung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2311> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitsstudien"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2315> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Betriebliche Lohnsysteme"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2320> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Personalpolitik und Personalverwaltung (einschl. innerbetriebliche Ausbildung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Personalwesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Techniksoziologie> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Techniksoziologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#techsoz"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2400> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2410> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2420> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2422> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2425> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2400> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Techniksoziologie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2410> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Technikfolgenabschätzung / Technikforschung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Techniksoziologie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2420> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Technologie (Umwelt- und Biotechnologiepolitik)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Techniksoziologie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2422> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kommunikationstechnologien / Medien"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Techniksoziologie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2425> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gentechnologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Techniksoziologie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Produktion> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Produktion"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#prod"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2432> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2435> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2440> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2450> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2432> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Produktion> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2435> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "betriebswirtschaftliche Produktions- und Kostentheorie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Produktion> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2440> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fertigungsverfahren, Fertigungstechnik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Produktion> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2450> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fertigungsplanung, -steuerung, -kontrolle (einschl. Arbeitsvorbereitung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Produktion> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Standortprobleme> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Standortprobleme"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#standort"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2500> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2500> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Standortprobleme"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Standortprobleme> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marketing> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Marketing"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#marketing"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2605> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2610> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2605> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Absatz, Marketing (allgemein)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marketing> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2610> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Public Relations, Werbung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marketing> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Investition_und_Finanzierung> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Investition und Finanzierung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#invest"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2703> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2720> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2725> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2750> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2703> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Finanzierung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Investition_und_Finanzierung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2720> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Investition_und_Finanzierung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2725> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Investitionsplanung und -rechnung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Investition_und_Finanzierung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2750> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Forschung und Entwicklung in Unternehmen, Betriebsgröße und Unternehmenswachstum"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Investition_und_Finanzierung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechnungswesen> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rechnungswesen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#rechnung"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2805> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2815> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2820> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2805> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechnungswesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2815> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bilanztheorie, -politik, -analyse, Jahresabschluss"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechnungswesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2820> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Betriebsstatistik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechnungswesen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Betriebswirtschaftslehre> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Betriebswirtschaftslehre"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#bwl"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2880> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2887> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2880> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines (Lehrbücher, Sammelwerke)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Betriebswirtschaftslehre> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2887> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Internationale Unternehmensführung (international business; multinationale Firmen)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Betriebswirtschaftslehre> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftszweige / Unternehmensformen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#zweige"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2900> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2905> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2910> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2935> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2940> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2945> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2950> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2955> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2960> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2965> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2970> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2975> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2980> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2999> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2900> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2905> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Genossenschaftswesen u.ä. Rechtsformen; NGO/NPO, Verbünde (IHK)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2910> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Handwerk"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2935> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Textil- und Bekleidungsgewerbe"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2940> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Fahrzeugbau"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2945> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Chemische Industrie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2950> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Metallerzeugung und -bearbeitung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2955> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Verarbeitendes Gewerbe, Sonstige"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2960> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bergbau (incl. Mineralölgewinnung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2965> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Energie- und Wasserversorgung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2970> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Land- und Forstwirtschaft; Fischerei"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2975> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Baugewerbe (incl. Wohnungs- und Grundstücksmarkt)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2980> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Handel"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:2999> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonstige (Dienstleistungsgewerbe, Zulieferer)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftszweige_Unternehmensformen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Volkswirtschaftslehre> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Volkswirtschaftslehre"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#vwl"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3005> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3010> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3100> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3005> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, Lehrbücher und Sammelwerke (soweit nicht Spezialliteratur)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Volkswirtschaftslehre> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3010> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Volkswirtschaftliche Lehrmeinungen, Dogmengeschichte"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Volkswirtschaftslehre> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3100> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Konsumforschung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Volkswirtschaftslehre> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marktwirtschaft> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie des Marktes und der Preise"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#markt"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3120> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3130> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3160> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3120> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marktwirtschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3130> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie der Marktformen, Wettbewerb und Preisbildung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marktwirtschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3160> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Lohntheorie und Lohnpolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Marktwirtschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verteilungstheorie_und_Verteilungspolitik> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Verteilungstheorie und Verteilungspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#verteilung"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3180> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3180> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verteilungstheorie_und_Verteilungspolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Beschäftigung_Konjunktur,_Wachstum> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Beschäftigung, Konjunktur, Wachstum"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#konjunktur"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3198> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3200> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3210> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3220> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3230> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3198> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Beschäftigung_Konjunktur> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3200> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesamtwirtschaftliche Modelle (einschl. ökonometrische Modelle)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Beschäftigung_Konjunktur> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3210> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Konjunktur- und Beschäftigungstheorie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Beschäftigung_Konjunktur> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3220> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wachstumstheorie, Theorie des technischen Fortschritts"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Beschäftigung_Konjunktur> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3230> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Konjunktur-, Beschäftigungs- und Wachstumspolitik (Arbeitsmarktpolitik)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Beschäftigung_Konjunktur> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Welfare_Economics> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Welfare Economics"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#welfare"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3240> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3240> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines (Beschäftigungsgesellschaften; soziale Betriebe)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Welfare_Economics> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geld_Kredit_Währung> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geld, Kredit, Währung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#geld"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3305> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3310> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3315> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3320> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3335> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3305> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geld_Kredit_Währung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3310> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geldtheorie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geld_Kredit_Währung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3315> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geld- und Kreditpolitik, Zentralbanken, Währungspolitik (allgemein)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geld_Kredit_Währung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3320> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Inflation und Stagflation"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geld_Kredit_Währung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3335> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Internationale Währungssysteme und -abkommen, internationale Liquiditätsprobleme, Zahlungsverkehr"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geld_Kredit_Währung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Außenwirtschaft> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Außenwirtschaft und internationale Wirtschaftsbeziehungen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#aussen"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3363> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3385> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3363> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Außenwirtschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3385> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Internationale und Außenwirtschaftspolitik (Handelspolitik, Zollpolitik, Handelsbesteuerung, Exportförderung, Verkehr mit Staatshandelsländern)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Außenwirtschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Integration> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftliche Integration, politische Integration"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#integration"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3405> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3410> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3405> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines (Transformation, Globalisierung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Integration> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3410> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Europäische Union"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Integration> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftspolitik> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#wipo"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3425> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3450> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3455> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3460> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3425> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "allgemeine Wirtschaftspolitik, Theorie der Wirtschaftspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftspolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3450> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Agrarpolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftspolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3455> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gewerbe- und Industriepolitik (einschl. Geschichte, Handwerk, Mittelstand, Patentwesen, industrielle und gewerbliche Sonderprobleme)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftspolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3460> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Andere Spezialprobleme der Wirtschaftspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftspolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftssysteme_und_Wirtschaftsordnungen> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftssysteme und Wirtschaftsordnungen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#systeme"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3465> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3470> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3480> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3485> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3465> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kapitalismus, Liberalismus, Interventionismus"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftssysteme_und_Wirtschaftsordnungen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3470> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialismus, Syndikalismus, Kommunismus, Rätesystem, genossenschaftliche Systeme"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftssysteme_und_Wirtschaftsordnungen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3480> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Vergleich von Wirtschaftssystemen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftssysteme_und_Wirtschaftsordnungen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3485> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Volkswirtschaftliche Planung, Planwirtschaft, Zentralverwaltungswirtschaft"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftssysteme_und_Wirtschaftsordnungen> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wettbewerbspolitik_und_Konzentrationsforschung> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wettbewerbspolitik und Konzentrationsforschung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#wettbewerb"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3500> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3510> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3515> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3525> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3530> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3500> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wettbewerbspolitik_und_Konzentrationsforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3510> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wettbewerbspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wettbewerbspolitik_und_Konzentrationsforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3515> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "BRD"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wettbewerbspolitik_und_Konzentrationsforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3525> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Europäische Union"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wettbewerbspolitik_und_Konzentrationsforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3530> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Andere"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wettbewerbspolitik_und_Konzentrationsforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verkehrswesen_und_Verkehrspolitik> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Verkehrswesen und Verkehrspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#verkehr"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3550> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3550> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Verkehrswesen und Verkehrspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Verkehrswesen_und_Verkehrspolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Stadt- und Regionalsoziologie, Umweltforschung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#stadtsoz"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3600> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3605> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3607> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3608> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3609> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3610> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3617> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3630> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3640> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3600> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Stadt- und Regionalsoziologie, Urban Economics, Probleme industrieller Ballungsräume (allgemein)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3605> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Raumwirtschaftstheorie und -politik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3607> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Agglomerationsprobleme"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3608> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Strukturpolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3609> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Regionale Wirtschaft, regionale Wirtschaftspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3610> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Verkehrswesen und Verkehrspolitik , Probleme des Großstadtverkehrs"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3617> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Infrastrukturpolitik, öffentliche Investitionen; öffentliche Güter; externe Effekte"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3630> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Umweltökonomie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3640> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ökologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Soziologie_Umweltforschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesellschafts- und Sozialpolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#sozpol"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3703> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3705> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3706> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3710> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3715> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3718> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3720> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3703> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3705> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Theorie der Sozialpolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3706> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gesundheitswesen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3710> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Praxis der Sozialpolitik (Sozialleistungssystem und Teilbereiche, Selbstverwaltung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3715> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Armut; Sozialstruktur; soziale Ungleichheit (ehrenamtliche Arbeit; Selbsthilfegruppen; soziale Vereine; Sozialberichte/Armutsberichte)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3718> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Migration und Asyl (ethnische Gruppen und Minderheiten) (Ausländer; Aussiedler)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3720> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mitbestimmung und Interessenvertretung (Partizipation; Beteiligung; Mitwirkung; Vermögensbildung)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sozialpolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Staatssektor> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Staatssektor"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#staat"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3730> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3730> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Staatssektor, allgemein (Verstaatlichung, öffentliche Unternehmen)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Staatssektor> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Finanzwissenschaft> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Finanzwissenschaft"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#finanz"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3755> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3775> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3785> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3800> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3755> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Finanzwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3775> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Finanzpolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Finanzwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3785> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Öffentliche Ausgaben (Subventionen)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Finanzwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3800> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Öffentliche Einnahmen (einschl. Steuerlehre und einzelne Steuern)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Finanzwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Entwicklungstheorie_und_Entwicklungspolitik> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Entwicklungstheorie und Entwicklungspolitik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#entwicklung"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3850> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3850> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Entwicklungsländer, -hilfe, -theorie (einschl. Ansätze aus der Imperialismustheorie)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Entwicklungstheorie_und_Entwicklungspolitik> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bevölkerungslehre> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bevölkerungslehre"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#bevoelkerung"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3860> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3870> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3860> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bevölkerungstheorie und -politik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bevölkerungslehre> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3870> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bevölkerungsstatistik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bevölkerungslehre> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geschichte> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geschichte, besonders Wirtschafts- und Sozialgeschichte"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#geschichte"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3880> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3883> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3885> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3890> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3895> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3880> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, methodische Probleme, Gesamtdarstellungen, Lehrbücher (historische Sozialwissenschaften)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geschichte> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3883> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Antike und Mittelalter"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geschichte> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3885> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Neuzeit"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geschichte> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3890> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Zeitgeschichte (ab 1945)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geschichte> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3895> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Spezialgebiete (Technik, Kunst, Kultur, Ideen usw.)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geschichte> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geographie> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geographie, insbesondere Wirtschaftsgeographie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#geo"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3900> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3900> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geographie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Geographie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschafts- und Länderkunde"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#laender"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3910> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3920> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3930> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3935> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3937> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3950> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3955> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3960> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3962> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3963> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3964> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3965> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3970> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3972> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3975> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3976> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3980> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3987> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3910> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3920> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Afrika"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3930> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Amerika"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3935> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "USA"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3937> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Lateinamerika"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3950> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Asien"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3955> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Japan"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3960> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Australien und Ozeanien"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3962> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Russland"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3963> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sowjetunion"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3964> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Europa"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3965> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Nordeuropa"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3970> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "West- und Mitteleuropa"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3972> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Deutschland (BRD vor 1990, DDR)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3975> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "BRD (ab 1990)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3976> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Neue Bundesländer"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3980> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Ost- und Südosteuropa"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:3987> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Südeuropa"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wirtschaftskunde> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politische_Ökonomie> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Ökonomie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#politoeko"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5010> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5020> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5010> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, Gesamtdarstellungen, Lehrbücher"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politische_Ökonomie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5020> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Spezialprobleme"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politische_Ökonomie> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Spezielle Soziologien, Bindestrich Soziologien"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#spezsoz"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5100> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5105> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5110> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5200> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5220> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5300> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5310> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5311> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5312> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5313> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5314> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5315> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5316> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5317> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5320> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5340> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5360> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5380> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5100> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Industrie, Arbeit, industrielle Beziehungen; Industrie- und Betriebssoziologie (soziale Organisation des Betriebes; Human and lndustrial Relation)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5105> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Soziale Innovation"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5110> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitssoziologie (Mobbing)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5200> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitsmarkt, Tarifwesen, Tarifparteien [Beschäftigung], Gewerkschaften"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5220> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeitszeit (-flexibilisierung), Beschäftigungsformen (Altersteilzeit, geringfügig Beschäft.)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5300> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Jugend- und Familiensoziologie, Sozialisation (Senioren; Behinderte)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5310> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Frauenforschung, Geschlechterforschung (Allgemein)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5311> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Frau und Beruf (Arbeit im weiblichen Lebenszusammenhang; Hausarbeit; Heimarbeit)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5312> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Frauendiskriminierung; Gewalt gegen Frauen und Mädchen (Frau und Sexualität)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5313> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Frauen und Wissenschaft, Politik, Kunst"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5314> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Frauenbewegung; Feminismus"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5315> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Frauen in einzelnen Ländern"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5316> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Frauen in besonderen Lebenslagen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5317> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mädchenforschung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5320> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Gemeindesoziologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5340> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Organisationssoziologie, Soziologie der Verbände"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5360> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaftssoziologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5380> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "sonstige Soziologien (Recht, Religion, Umwelt usw.)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Spezielle_Soziologien> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politikwissenschaft> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politikwissenschaft"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#politik"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5600> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5620> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5640> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5660> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5680> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5600> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines (Lehrbücher; Methodologie; u.a.)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politikwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5620> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Theorie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politikwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5640> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "politische Systeme (einschl. Regierungssysteme und Comparative Government)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politikwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5660> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Politische Soziologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politikwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5680> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Außenpolitik und internationale Beziehungen"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Politikwissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wissenschaft_Forschung> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wissenschaft, Forschung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#forschung"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5800> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5800> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wissenschaft, Forschung, Wissenschaftssoziologie, Zukunftsforschung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Wissenschaft_Forschung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bildung> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bildung und berufliche Bildung"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#bildung"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5850> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5900> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5850> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bildung und berufliche Bildung (Ausbildung, Weiterbildung, Qualifizierung); Berufsbildungspolitik (Hochschulen)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bildung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:5900> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Planungs- und Verwaltungswissenschaften"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Bildung> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Rechtswissenschaft"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#recht"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6001> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6003> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6010> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6020> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6030> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6070> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6001> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6003> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bürgerliches Recht"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6010> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Öffentliches Recht (einschl. Kartell- und Steuerrecht)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6020> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Handels- und Wirtschaftsrecht"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6030> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Arbeits- und Sozialrecht"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:6070> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Internationales Recht"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Rechtswissenschaft> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonstige Wissenschaften"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#sonstiges"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7010> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7020> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7050> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7100> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7110> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7150> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7200> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7300> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7500> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7010> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Kultur und Kunst"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7020> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Medienwissenschaften"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7050> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Anthropologie, Ethnologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7100> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Psychologie, Sozialpsychologie, Pädagogik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7110> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Moderation, Präsentation (Öffentlichkeitsarbeit, Seminarleitung, Workshops)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7150> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Philosophie, Theologie, Sozialethik (Utopien)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7200> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Medizin, Biologie, Chemie, Ökologie"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7300> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Physik"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7500> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Zeitungswissenschaften"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonstige_Wissenschaften> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonderformate> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonderformate"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Fachinformation/Sozialwissenschaften/bsfs_syst.html#sonder"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7900> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:7900> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sonderformate (Bildbände; Forschungsberichte)"@de ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-23:Sonderformate> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+

@@ -1,0 +1,129 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lobid_orga: <http://lobid.org/organisations/> .
+@prefix ecrm: <http://erlangen-crm.org/current/> .
+@prefix powder: <http://www.w3.org/2007/05/powder#> .
+
+lobid_orga:DE-290 a ecrm:E39_Actor .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bereichsbibliothek Raumplanung"@de ;
+  dct:title "Departmental library of Spatial Planning"@en ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html"^^xsd:anyURI ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:0> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:1> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:2> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:4> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:5> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:6> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:65> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:7> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:8> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:85> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:9> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:X> ;
+  dct:hasPart <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:Xn> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:0> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Allgemeines, Nachschlagewerke"@de ;
+  dct:title "General, Reference Works"@en ;
+  dct:alternative "0" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#allgemeines"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:1> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Raumordnung, Regionalplanung"@de ;
+  dct:title "Spatial Planning, Regional Planning"@en ;
+  dct:alternative "1" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html.en#raumordnung"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:2> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Stadtplanung, Ortsplanung"@de ;
+  dct:title "Town Planning"@en ;
+  dct:alternative "2" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#stadtplanung"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:4> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Vermessung, Bodenordnung"@de ;
+  dct:title "Surveying, Land Development"@en ;
+  dct:alternative "4" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#vermessung"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:5> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Stadtbauwesen, Verkehr"@de ;
+  dct:title "Urban Engineering, Traffic"@en ;
+  dct:alternative "5" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#stadtbauwesen"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:6> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Recht"@de ;
+  dct:title "Law"@en ;
+  dct:alternative "6" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#recht"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:65> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Sozialwissenschaften"@de ;
+  dct:title "Social Sciences"@en ;
+  dct:alternative "65" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#sozialwissenschaften"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:7> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Wirtschaft"@de ;
+  dct:title "Economy"@en ;
+  dct:alternative "7" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#wirtschaft"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:8> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Mathematik, Statistik, EDV"@de ;
+  dct:title "Mathematics, Statistics, Data Processing"@en ;
+  dct:alternative "8" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#mathematik"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:85> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Geographie"@de ;
+  dct:title "Geography"@en ;
+  dct:alternative "85" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#geographie"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:9> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Topographie, Monographien, Pläne"@de ;
+  dct:title "Topography, Monographs, Plans"@en ;
+  dct:alternative "9" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  powder:describedby "https://www.ub.tu-dortmund.de/Orgaplan/raumplanung/brsyst.html#topographie"^^xsd:anyURI ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:X> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Raumplanung, Städtebau"@de ;
+  dct:title "Spatial Planning, Civil Engineering"@en ;
+  dct:alternative "X" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
+
+<http://data.ub.tu-dortmund.de/resource/collection:DE-290-9:Xn> a ecrm:E78_Curated_Holding, dct:Collection ;
+  dct:title "Bauingenieur- und Verkehrswesen"@de ;
+  dct:title "Construction Engineering and Transportation"@en ;
+  dct:alternative "Xn" ;
+  dct:isPartOf <http://data.ub.tu-dortmund.de/resource/collection:DE-290-9> ;
+  ecrm:P109_has_current_or_former_curator lobid_orga:DE-290 .
